@@ -1,0 +1,14 @@
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.2rem;
+}
+
+th {
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+}
+
+input {
+    cursor: pointer;
+}

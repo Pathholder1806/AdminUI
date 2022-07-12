@@ -1,0 +1,66 @@
+.update-modal {
+    width: 500px;
+    background-color: #ccc;
+    border-radius: 12px;
+
+    padding: 1.2rem 2rem;
+}
+
+.modal-heading {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+    margin-bottom: 3rem;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.form-label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.form-input {
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+
+    color: inherit;
+}
+
+.form-action {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.form-btn {
+    padding: 1.2rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.form-btn:hover {
+    filter: brightness(90%);
+}
+
+.form-btn-cancel {
+    background-color: #ff1a1a;
+    color: #fff;
+}

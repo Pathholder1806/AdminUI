@@ -1,0 +1,37 @@
+td {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.action-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.action-btn ion-icon {
+    font-size: 1.8rem;
+}
+
+.action-btn-delete ion-icon {
+    color: rgb(206, 57, 57);
+}
+
+.selected {
+    background-color: #ccc;
+}
+
+input {
+    cursor: pointer;
+}
